@@ -19,7 +19,10 @@ public class PlayerInteraction : MonoBehaviour
         {
             if (touchingBreakable)
             {
-                colliderBeingTouched.GetComponent<Breakable>().ChangeModel();
+                if (GetComponent<ItemCollector>().coinCount > 0)
+                {
+                    colliderBeingTouched.GetComponent<Breakable>().ChangeModel();
+                }
             }
         }
         
