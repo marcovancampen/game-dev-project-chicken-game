@@ -58,3 +58,4 @@ Thumbs.db.meta
 
 # VS Code
 *.vscode
+chicken quest/Packages/manifest.json
