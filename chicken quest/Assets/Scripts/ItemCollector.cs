@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ItemCollector : MonoBehaviour
 {
-    int coinCount = 0;
+    public int coinCount = 0;
 
     private void OnTriggerEnter(Collider other)
     {
